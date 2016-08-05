@@ -1,7 +1,8 @@
-package com.abc;
+package com.abc.model;
 
-import java.util.Calendar;
 import java.util.Date;
+
+import com.abc.util.DateProvider;
 
 public class Transaction {
     public final double amount;

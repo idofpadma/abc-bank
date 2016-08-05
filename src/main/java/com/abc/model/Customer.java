@@ -1,4 +1,4 @@
-package com.abc;
+package com.abc.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,4 +75,5 @@ public class Customer {
     private String toDollars(double d){
         return String.format("$%,.2f", abs(d));
     }
+    
 }
